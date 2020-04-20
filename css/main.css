@@ -1,31 +1,32 @@
 body {
-  overflow-x: hidden;
-  height:3000px
+    overflow-x: hidden;
+    height: 3000px
 }
 
 .navbar .nav-link {
-  font-size: 14px;
-  text-transform: uppercase;
-  padding-left: 1rem !important;
-  padding-right: 1rem !important;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
 }
 
 .navbar .nav-item.active {
-  border-left: #444 3px solid;
+    border-left: #444 3px solid;
 }
 
 
+/*  */
+
+.contactSectionFirst .bgImg {
+    background-image: url('../imgs/image1.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
 
 
-
-
-
-
-
-
-
+/*  */
 
 #main-footer {
-  background: rgb(44, 46, 47);
-  color: #fff;
+    background: rgb(44, 46, 47);
+    color: #fff;
 }
