@@ -1,10 +1,11 @@
 body {
     overflow-x: hidden;
-    height: 3000px
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 .navbar .nav-link {
-    font-size: 14px;
+    font-size: 1.4rem;
     text-transform: uppercase;
     padding-left: 1rem !important;
     padding-right: 1rem !important;
@@ -15,18 +16,61 @@ body {
 }
 
 
-/*  */
+/* start contact section */
 
 .contactSectionFirst .bgImg {
-    background-image: url('../imgs/image1.jpg');
-    background-repeat: no-repeat;
+    background-image: url('../imgs/img1.png');
     background-attachment: fixed;
 }
 
+.contactSectionFirst .bgImg .details h1 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #fff;
+}
 
-/*  */
+.contactSectionFirst .bgImg .details p {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #fff;
+}
+
+.contactSecondSection .left h4 {
+    font-weight: 600;
+}
+
+.contactSecondSection .left p {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+}
+
+.contactSecondSection .right h3 {
+    font-weight: 600;
+    font-size: 1.8rem;
+}
+
+.contactThirsSection {
+    font-size: 1.1rem;
+}
+
+.contactThirsSection h1 {
+    font-weight: 600;
+    font-size: 2.5rem !important;
+}
+
+
+/* end contact section */
 
 #main-footer {
-    background: rgb(44, 46, 47);
+    background: #000;
     color: #fff;
+}
+
+#main-footer p {
+    font-size: 1.02rem;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
 }
