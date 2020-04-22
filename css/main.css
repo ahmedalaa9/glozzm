@@ -74,3 +74,90 @@ body {
     font-weight: 400;
     font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
 }
+/**************************************  blog  *********************************************************/
+#sectionOne{
+    height: 200px;
+    background-image: url(../imgs/image1.jpg);
+    /* background-size: cover; */
+    background-position: 0 -360px;
+    background-attachment: fixed;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+#sectionOne .main{
+    font-size: 2.5rem;
+    margin-bottom: .5rem;
+    font-weight: 500;
+    line-height: 1.2;
+   color: rgb(255, 255, 255);
+}
+#sectionOne .main1{
+    color: rgb(255, 255, 255);
+    font-size:16px;
+    font-weight:400;
+    line-height:24px;
+    margin-bottom:1rem;
+}
+/* content */
+.content{
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.content .card-body{
+    padding: 1.25rem;
+}
+.content .card{
+    margin-bottom: 0.75rem;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+}
+.content .card-body h4{
+    margin-bottom: .75rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+    color:rgb(33, 37, 41);
+    position: relative;
+}
+
+.content .card-body .style{
+    font-size:12.8px;
+    font-weight:400;
+    line-height:19.2px;
+    margin: 1rem 0;              /*  ********** not working ? ********  */
+}
+.content .card-body h4:after{
+    content: " ";
+    background-color: #6c757d;
+    margin: 1rem 0;
+    height: 0.3px;
+    width: 310px;
+    position: absolute;
+    top: 60px;
+    left: -1px;
+}
+.content .card-body .pStyle{
+padding-top: 1.25rem;
+}
+.secondRow  .pStyle2{
+    line-height:24px;
+    margin-bottom: 1rem;
+}
+
+.secondRow  .styleSpan2{
+    font-size:10.24px;
+    line-height:15.36px;
+    padding-left: 25px;
+}
+.secondRow .card-body{
+    padding:20px ;
+}
+.secondRow p::before{
+    content: " ";
+    background-color: #6c757d;
+    height: 0.3px;
+    width: 15px;
+    position: absolute;
+    top: 138px;
+    left: 37px;
+}
+/**************************************  blog end ************************************************/
