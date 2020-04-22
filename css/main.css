@@ -75,14 +75,20 @@ body {
 
 /* end header */
 
+/* ------------------------------ header of pages ---------------------------------------------- */
+#page-header{
+    height: 200px;
+    background: url(../imgs/image1.jpg);
+    background-position: 0 -360px;
+    background-attachment: fixed;
+    color: #fff;
+    border-bottom: 1px #eee solid;
+    padding-top: 50px;
+}
 
 /* start contact section */
 
-.contactSectionFirst .bgImg {
-    background-image: url('../imgs/img1.png');
-    background-attachment: fixed;
-}
-
+/* 
 .contactSectionFirst .bgImg .details h1 {
     font-size: 2.5rem;
     font-weight: 600;
@@ -93,7 +99,7 @@ body {
     font-size: 1rem;
     font-weight: 500;
     color: #fff;
-}
+} */
 
 .contactSecondSection .left h4 {
     font-weight: 600;
@@ -134,15 +140,12 @@ body {
     font-weight: 400;
     font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
 }
-<<<<<<< HEAD
 /**************************************  blog  *********************************************************/
-#sectionOne{
+/* #sectionOne{
     height: 200px;
-    background-image: url(../imgs/image1.jpg);
-    /* background-size: cover; */
-    background-position: 0 -360px;
+    background-image: url(../imgs/head-img.jpg);
     background-attachment: fixed;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    background-position: 0 -360px;
 }
 #sectionOne .main{
     font-size: 2.5rem;
@@ -157,7 +160,7 @@ body {
     font-weight:400;
     line-height:24px;
     margin-bottom:1rem;
-}
+} */
 /* content */
 .content{
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
@@ -222,20 +225,17 @@ padding-top: 1.25rem;
     left: 37px;
 }
 /**************************************  blog end ************************************************/
-=======
+
 
 /* start services section*/
 
-.first-sec
+/* .first-sec
 {
   height:200px;
   background-image: url('../imgs/IMG_20200422_135549.jpg');
   background-size: 100% 100%;
 }
-.first-sec .a7a 
-{
-    
-}
+
 .first-sec> div
 {
     color:white;
@@ -245,12 +245,12 @@ padding-top: 1.25rem;
 .first-sec h2
 {
     font-size:2.5rem;
-    
+
 }
 .first-sec p
 {
     font-size:19px;
-}
+} */
 /* start plan section*/
 .plans .container .row .card .plan-n
 {
@@ -273,7 +273,7 @@ color:white;
 .que-sec 
 {
     background-color: #343a40!important;
-   
+
 }
 
 .que-sec h2
@@ -294,7 +294,7 @@ color:white;
     background-color: #333;
     color:white;
     font-size:1.4rem
-    
+
 }
 
 @media (max-width:960px)
@@ -309,7 +309,7 @@ color:white;
 {
     font-size:2.5rem;
     font-weight: 600 !important;
-    
+
 }
 .first-sec p
 {
@@ -318,17 +318,3 @@ color:white;
 }
 
 /*end que section*/
-
-
-
-
-
-
-
-
-
-
-
-
-/* end services section*/
->>>>>>> adc0b148c8010d8c873ba52a0f3d147f94d4be49
