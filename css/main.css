@@ -1,6 +1,7 @@
 body {
     overflow-x: hidden;
     font-family: 'Roboto', sans-serif;
+    
     font-family: 'Source Sans Pro', sans-serif;
 }
 
@@ -133,3 +134,111 @@ body {
     font-weight: 400;
     font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
 }
+
+/* start services section*/
+
+.first-sec
+{
+  height:200px;
+  background-image: url('../imgs/IMG_20200422_135549.jpg');
+  background-size: 100% 100%;
+}
+.first-sec .a7a 
+{
+    
+}
+.first-sec> div
+{
+    color:white;
+    left:28%;
+    top:20%;
+}
+.first-sec h2
+{
+    font-size:2.5rem;
+    
+}
+.first-sec p
+{
+    font-size:19px;
+}
+/* start plan section*/
+.plans .container .row .card .plan-n
+{
+background-color: #343a40 !important;
+color:white;
+}
+.plans .container .row .card .plan-n h3 
+{
+    font-size: 2rem;
+    font-weight: 550;
+}
+.plans .container .row .card .end-body
+{
+    color:#6c757d!important
+}
+/* end plans section*/
+
+/* start que section*/
+
+.que-sec 
+{
+    background-color: #343a40!important;
+   
+}
+
+.que-sec h2
+{
+   font-weight:500;
+   font-size:2.8rem;
+   color:white
+}
+
+.que-sec .card 
+{
+    border:none !important;
+    background-color: transparent;
+}
+
+.que-sec .card ul li
+{
+    background-color: #333;
+    color:white;
+    font-size:1.4rem
+    
+}
+
+@media (max-width:960px)
+{
+    .first-sec> div
+{
+    color:white;
+    left:5%;
+    top:15%;
+}
+.first-sec h2
+{
+    font-size:2.5rem;
+    font-weight: 600 !important;
+    
+}
+.first-sec p
+{
+    font-size:18px;
+}
+}
+
+/*end que section*/
+
+
+
+
+
+
+
+
+
+
+
+
+/* end services section*/
