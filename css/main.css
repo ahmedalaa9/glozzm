@@ -16,6 +16,65 @@ body {
 }
 
 
+/*start header */
+
+.carousel-item{
+    height: 450px;
+}
+.carousel-image-1{
+    background-image: url(../imgs/image1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.carousel-image-2{
+    background-image: url(../imgs/image2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.carousel-image-3{
+    background-image: url(../imgs/image3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+#home-heading{
+    position: relative;
+    background-image: url(../imgs/lights.jpg);
+    background-attachment: fixed;
+    text-align: center;
+    color: #fff;
+    background-repeat: no-repeat;
+    min-height: 200px;
+}
+.overlay-dark{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0,.7);
+}
+#video-play{
+    position: relative;
+    background-image: url(../imgs/media.jpg);
+    background-attachment: fixed;
+    text-align: center;
+    color: #fff;
+    background-repeat: no-repeat;
+    min-height: 200px;
+}
+#video-play a{
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+
+
+/* end header */
+
+
 /* start contact section */
 
 .contactSectionFirst .bgImg {

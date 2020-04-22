@@ -10,6 +10,8 @@
     crossorigin="anonymous">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
     crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css" integrity="sha256-HAaDW5o2+LelybUhfuk0Zh2Vdk8Y2W2UeKmbaXhalfA=" crossorigin="anonymous" />
+    
   <link rel="stylesheet" href="css/main.css">
 
   <title>Bootstrap Theme</title>
@@ -46,18 +48,197 @@
     </div>
   </nav>
 
+ <!-- header slider -->
+ <header id="showcase">
+  <div class="carousel slide" id="myCarousel" data-ride="carousel">
+      <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+          <div class="carousel-item carousel-image-1 active">
+              <div class="container">
+                  <div class="carousel-caption d-none d-sm-block text-right mb-5">
+                      <h1 class="display-3">Heading One</h1>
+                      <p class="lead">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam corrupti voluptatum nisi, saepe odio doloremque dolorem aperiam corporis libero accusantium.</p>
+                      <a href="#" class="btn btn-danger btn-lg">Sign Up Now</a>
+                  </div>
+              </div>
+          </div>
 
+          <div class="carousel-item carousel-image-2 ">
+              <div class="container">
+                  <div class="carousel-caption d-none d-sm-block mb-5">
+                      <h1 class="display-3">Heading Two</h1>
+                      <p class="lead">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam corrupti voluptatum nisi, saepe odio doloremque dolorem aperiam corporis libero accusantium.</p>
+                      <a href="#" class="btn btn-primary btn-lg">Learn More</a>
+                  </div>
+              </div>
+          </div>
 
+          <div class="carousel-item carousel-image-3 ">
+              <div class="container">
+                  <div class="carousel-caption d-none d-sm-block text-right mb-5">
+                      <h1 class="display-3">Heading Three</h1>
+                      <p class="lead">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam corrupti voluptatum nisi, saepe odio doloremque dolorem aperiam corporis libero accusantium.</p>
+                      <a href="#" class="btn btn-warning btn-lg">Learn More</a>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <a href="#myCarousel" data-slide="prev" class="carousel-control-prev" >
+          <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a href="#myCarousel" data-slide="next" class="carousel-control-next" >
+          <span class="carousel-control-next-icon"></span>
+      </a>
+  </div>
+</header>
+<!-- home icon area  -->
+<section id="home-icons" class="py-5">
+  <div class="container">
+      <div class="row">
+          <div class="col-md-4 mb-4 text-center">
+              <i class="fas fa-cog fa-3x mb-2"></i>
+              <h3>Turning Gears</h3>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero, veniam.</p>
+          </div>
+          <div class="col-md-4 mb-4 text-center">
+              <i class="fas fa-cloud fa-3x mb-2"></i>
+              <h3>Sending Data</h3>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero, veniam.</p>
+          </div>
+          <div class="col-md-4 mb-4 text-center">
+              <i class="fas fa-cart-plus fa-3x mb-2"></i>
+              <h3>Making Money</h3>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero, veniam.</p>
+          </div>
+      </div>
+  </div>
+</section>
 
+<!-- home heading -->
+<section id="home-heading" class="p-5">
+  <div class="overlay-dark">
+      <div class="container pt-5">
+          <div class="row">
+              <div class="col">
+                  <h2 class="h1 text-white">Are You Ready To Get Started?</h2>
+                  <p class="d-none d-md-block">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est eaque magni sit dolores. Nisi, dolor nam modi perspiciatis consequatur soluta.</p>
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
 
+<!-- info sec -->
+<section id="info" class="py-3">
+  <div class="container">
+      <div class="row">
+          <div class="col-md-6 align-self-center">
+              <h3>Lorem, ipsum</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia id tempora voluptatum temporibus animi modi provident repudiandae libero corporis necessitatibus!</p>
+              <a href="about.html" class="btn btn-outline-danger btn-lg">Learn more</a>
+          </div>
+          <div class="col-md-6">
+              <img src="imgs/laptop.png" alt="labtop" class="img-fluid">
+          </div>
+      </div>
+  </div>
+</section>
 
+<!-- video sec -->
+<section id="video-play">
+  <div class="overlay-dark">
+      <div class="container">
+          <div class="row">
+              <div class="col p-5">
+                  <a href="#" data-video="https://www.youtube.com/embed/HnwsG9a5riA" data-toggle="modal" data-target="#videoModal" class="video">
+                  <i class="fas fa-play fa-3x mb-3"></i></a>
+                  <h2 class="h1">See what you do</h2>
 
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
+<!-- video modal -->
+<div class="modal fade" id="videoModal">
+  <div class="modal-dialog">
+      <div class="modal-content">
+          <div class="modal-body">
+              <button class="close" data-dismiss="modal" >
+                  <span>&times;</span>
+              </button>
+              <iframe src="" height="350" width="100%" allowfullscreen frameborder="0"></iframe>
+          </div>
+      </div>
+  </div>
+</div>
 
+<!-- photo gallery  -->
+<section id="gallery" class="py-5">
+  <div class="container">
+      <h1 class="text-center">Photo Gallery</h1>
+      <p class="text-center">Check out our photos</p>
+      <div class="row mb-4">
+          <div class="col-md-4">
+              <a href="https://source.unsplash.com/random/560x560" data-toggle="lightbox" data-gallery="img-gallery"
+               data-height="560" data-width="560">
+              <img src="https://source.unsplash.com/random/560x560" alt="pic" class="img-fluid img-thumbnail"></a>
+          </div>
 
+          <div class="col-md-4">
+              <a href="https://source.unsplash.com/random/562x560" data-toggle="lightbox" data-gallery="img-gallery"
+               data-height="560" data-width="560">
+              <img src="https://source.unsplash.com/random/562x560" alt="pic" class="img-fluid img-thumbnail"></a>
+          </div>
 
+          <div class="col-md-4">
+              <a href="https://source.unsplash.com/random/561x560" data-toggle="lightbox" data-gallery="img-gallery"
+               data-height="560" data-width="560">
+              <img src="https://source.unsplash.com/random/561x560" alt="pic" class="img-fluid img-thumbnail"></a>
+          </div>
+      </div>
+      <div class="row mb-4">
+          <div class="col-md-4">
+              <a href="https://source.unsplash.com/random/560x561" data-toggle="lightbox" data-gallery="img-gallery"
+               data-height="560" data-width="560">
+              <img src="https://source.unsplash.com/random/560x561" alt="pic" class="img-fluid img-thumbnail"></a>
+          </div>
 
+          <div class="col-md-4">
+              <a href="https://source.unsplash.com/random/562x562" data-toggle="lightbox" data-gallery="img-gallery"
+               data-height="560" data-width="560">
+              <img src="https://source.unsplash.com/random/562x562" alt="pic" class="img-fluid img-thumbnail"></a>
+          </div>
 
+          <div class="col-md-4">
+              <a href="https://source.unsplash.com/random/561x561" data-toggle="lightbox" data-gallery="img-gallery"
+               data-height="560" data-width="560">
+              <img src="https://source.unsplash.com/random/561x561" alt="pic" class="img-fluid img-thumbnail"></a>
+          </div>
+      </div>
+  </div>
+</section>
 
+<!-- newletter -->
+<section id="newletter" class="py-4 bg-dark text-white">
+  <div class="container">
+      <div class="row">
+          <div class="col text-center ">
+              <h2 class="h1">Sign Up For Our Newsletter</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio asperiores consectetur, quae ducimus voluptates vero repellendus architecto maiores recusandae mollitia?</p>
+              <form class="form-inline justify-content-center">
+                  <input type="text" placeholder="Enter Name" class="form-control mb-2 mr-2">
+                  <input type="email" placeholder="Enter Email" class="form-control mb-2 mr-2">
+                  <button class="btn btn-primary mb-2">Submit</button>
+              </form>
+          </div>
+      </div>
+  </div>
+</section>
 
 
   <!-- FOOTER -->
@@ -80,6 +261,36 @@
     crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
     crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js" integrity="sha256-Y1rRlwTzT5K5hhCBfAFWABD4cU13QGuRN6P5apfWzVs=" crossorigin="anonymous"></script>
+
+    <script>
+        $('#year').text(new Date().getFullYear());
+    //configure slider
+    $('.carousel').carousel({
+        interval:6000,
+        pause:'hover'
+    });    
+        // Video Play
+        $(function () {
+      // Auto play modal video
+      $(".video").click(function () {
+        var theModal = $(this).data("target"),
+          videoSRC = $(this).attr("data-video"),
+          videoSRCauto = videoSRC + "?modestbranding=1&rel=0&controls=0&showinfo=0&html5=1&autoplay=1";
+        $(theModal + ' iframe').attr('src', videoSRCauto);
+        $(theModal + ' button.close').click(function () {
+          $(theModal + ' iframe').attr('src', videoSRC);
+        });
+      });
+    });
+
+    $(document).on('click', '[data-toggle="lightbox"]', function(event) {
+                event.preventDefault();
+                $(this).ekkoLightbox();
+            });
+
+
+    </script>  
 
   
 </body>
