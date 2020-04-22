@@ -1,6 +1,7 @@
 body {
     overflow-x: hidden;
     font-family: 'Roboto', sans-serif;
+    
     font-family: 'Source Sans Pro', sans-serif;
 }
 
@@ -14,6 +15,65 @@ body {
 .navbar .nav-item.active {
     border-left: #444 3px solid;
 }
+
+
+/*start header */
+
+.carousel-item{
+    height: 450px;
+}
+.carousel-image-1{
+    background-image: url(../imgs/image1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.carousel-image-2{
+    background-image: url(../imgs/image2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.carousel-image-3{
+    background-image: url(../imgs/image3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+#home-heading{
+    position: relative;
+    background-image: url(../imgs/lights.jpg);
+    background-attachment: fixed;
+    text-align: center;
+    color: #fff;
+    background-repeat: no-repeat;
+    min-height: 200px;
+}
+.overlay-dark{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0,.7);
+}
+#video-play{
+    position: relative;
+    background-image: url(../imgs/media.jpg);
+    background-attachment: fixed;
+    text-align: center;
+    color: #fff;
+    background-repeat: no-repeat;
+    min-height: 200px;
+}
+#video-play a{
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+
+
+/* end header */
 
 
 /* start contact section */
@@ -74,6 +134,7 @@ body {
     font-weight: 400;
     font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
 }
+<<<<<<< HEAD
 /**************************************  blog  *********************************************************/
 #sectionOne{
     height: 200px;
@@ -161,3 +222,113 @@ padding-top: 1.25rem;
     left: 37px;
 }
 /**************************************  blog end ************************************************/
+=======
+
+/* start services section*/
+
+.first-sec
+{
+  height:200px;
+  background-image: url('../imgs/IMG_20200422_135549.jpg');
+  background-size: 100% 100%;
+}
+.first-sec .a7a 
+{
+    
+}
+.first-sec> div
+{
+    color:white;
+    left:28%;
+    top:20%;
+}
+.first-sec h2
+{
+    font-size:2.5rem;
+    
+}
+.first-sec p
+{
+    font-size:19px;
+}
+/* start plan section*/
+.plans .container .row .card .plan-n
+{
+background-color: #343a40 !important;
+color:white;
+}
+.plans .container .row .card .plan-n h3 
+{
+    font-size: 2rem;
+    font-weight: 550;
+}
+.plans .container .row .card .end-body
+{
+    color:#6c757d!important
+}
+/* end plans section*/
+
+/* start que section*/
+
+.que-sec 
+{
+    background-color: #343a40!important;
+   
+}
+
+.que-sec h2
+{
+   font-weight:500;
+   font-size:2.8rem;
+   color:white
+}
+
+.que-sec .card 
+{
+    border:none !important;
+    background-color: transparent;
+}
+
+.que-sec .card ul li
+{
+    background-color: #333;
+    color:white;
+    font-size:1.4rem
+    
+}
+
+@media (max-width:960px)
+{
+    .first-sec> div
+{
+    color:white;
+    left:5%;
+    top:15%;
+}
+.first-sec h2
+{
+    font-size:2.5rem;
+    font-weight: 600 !important;
+    
+}
+.first-sec p
+{
+    font-size:18px;
+}
+}
+
+/*end que section*/
+
+
+
+
+
+
+
+
+
+
+
+
+/* end services section*/
+>>>>>>> adc0b148c8010d8c873ba52a0f3d147f94d4be49
