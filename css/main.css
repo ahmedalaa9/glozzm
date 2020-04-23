@@ -140,7 +140,7 @@ body {
     font-weight: 400;
     font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
 }
-/**************************************  blog  *********************************************************/
+/**************************************************************** blog start *********************************************************************/
 /* #sectionOne{
     height: 200px;
     background-image: url(../imgs/head-img.jpg);
@@ -187,7 +187,7 @@ body {
     font-size:12.8px;
     font-weight:400;
     line-height:19.2px;
-    margin: 1rem 0;              /*  ********** not working ? ********  */
+    margin: 5rem 0;              /*  ********** not working ? ********  */
 }
 .content .card-body h4:after{
     content: " ";
@@ -224,7 +224,7 @@ padding-top: 1.25rem;
     top: 138px;
     left: 37px;
 }
-/**************************************  blog end ************************************************/
+/************************************************************* blog end *************************************************************/
 
 
 /* start services section*/
@@ -269,7 +269,7 @@ color:white;
 /* end plans section*/
 
 /* start que section*/
-
+/* 
 .que-sec 
 {
     background-color: #343a40!important;
@@ -315,6 +315,43 @@ color:white;
 {
     font-size:18px;
 }
-}
+} */
 
 /*end que section*/
+/********************************************** Frequently Asked Questions  start ***************************************/
+   .questions h1{
+    font-size: 2.5rem;
+    margin-bottom: .5rem;
+    margin-bottom: .5rem;
+    line-height: 1.2;
+    font-weight: 500;
+   }
+   .questions hr{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid rgba(0,0,0,.1);
+    }
+   .questions .accordion .card{
+    border: #444;
+    /* text-align: center!important; */
+    border-bottom-left-radius:4px;                             /*  ???*/
+    border-bottom-right-radius:4px;                           /*  ???*/
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    }
+   .accordion .card-header, .accordion .card-body{
+    background-color: #333;
+    }
+   .accordion .card-header a{
+    color: #fff;
+    text-decoration: none;
+    text-align: center;                                      /*  ???*/
+    }
+   .accordion .card-header h5{ 
+    font-size: 1.25rem;
+    font-weight: 500;
+    line-height: 1.2;
+    }
+    /********************************************** Frequently Asked Questions  end ***************************************/
+      /********************************************** services  end ***************************************/
+    
