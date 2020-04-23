@@ -1,7 +1,6 @@
 body {
     overflow-x: hidden;
     font-family: 'Roboto', sans-serif;
-    
     font-family: 'Source Sans Pro', sans-serif;
 }
 
@@ -19,28 +18,29 @@ body {
 
 /*start header */
 
-.carousel-item{
+.carousel-item {
     height: 450px;
 }
-.carousel-image-1{
+
+.carousel-image-1 {
     background-image: url(../imgs/image1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-
 }
-.carousel-image-2{
+
+.carousel-image-2 {
     background-image: url(../imgs/image2.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    
 }
-.carousel-image-3{
+
+.carousel-image-3 {
     background-image: url(../imgs/image3.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    
 }
-#home-heading{
+
+#home-heading {
     position: relative;
     background-image: url(../imgs/lights.jpg);
     background-attachment: fixed;
@@ -49,15 +49,17 @@ body {
     background-repeat: no-repeat;
     min-height: 200px;
 }
-.overlay-dark{
+
+.overlay-dark {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0,.7);
+    background-color: rgba(0, 0, 0, .7);
 }
-#video-play{
+
+#video-play {
     position: relative;
     background-image: url(../imgs/media.jpg);
     background-attachment: fixed;
@@ -66,17 +68,22 @@ body {
     background-repeat: no-repeat;
     min-height: 200px;
 }
-#video-play a{
+
+#video-play a {
     color: #fff;
     margin-bottom: 20px;
 }
 
 
-
 /* end header */
 
+
+/* start contact section */
+
+
 /* ------------------------------ header of pages ---------------------------------------------- */
-#page-header{
+
+#page-header {
     height: 200px;
     background: url(../imgs/image1.jpg);
     background-position: 0 -360px;
@@ -86,7 +93,6 @@ body {
     padding-top: 50px;
 }
 
-/* start contact section */
 
 /* 
 .contactSectionFirst .bgImg .details h1 {
@@ -140,7 +146,11 @@ body {
     font-weight: 400;
     font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
 }
+
+
 /**************************************************************** blog start *********************************************************************/
+
+
 /* #sectionOne{
     height: 200px;
     background-image: url(../imgs/head-img.jpg);
@@ -161,35 +171,42 @@ body {
     line-height:24px;
     margin-bottom:1rem;
 } */
+
+
 /* content */
-.content{
+
+.content {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
-.content .card-body{
+.content .card-body {
     padding: 1.25rem;
 }
-.content .card{
+
+.content .card {
     margin-bottom: 0.75rem;
-    border: 1px solid rgba(0,0,0,.125);
+    border: 1px solid rgba(0, 0, 0, .125);
     border-radius: .25rem;
 }
-.content .card-body h4{
+
+.content .card-body h4 {
     margin-bottom: .75rem;
     font-size: 1.5rem;
     font-weight: 500;
     line-height: 1.2;
-    color:rgb(33, 37, 41);
+    color: rgb(33, 37, 41);
     position: relative;
 }
 
-.content .card-body .style{
-    font-size:12.8px;
-    font-weight:400;
-    line-height:19.2px;
-    margin: 5rem 0;              /*  ********** not working ? ********  */
+.content .card-body .style {
+    font-size: 12.8px;
+    font-weight: 400;
+    line-height: 19.2px;
+    margin: 5rem 0;
+    /*  ********** not working ? ********  */
 }
-.content .card-body h4:after{
+
+.content .card-body h4:after {
     content: " ";
     background-color: #6c757d;
     margin: 1rem 0;
@@ -199,23 +216,27 @@ body {
     top: 60px;
     left: -1px;
 }
-.content .card-body .pStyle{
-padding-top: 1.25rem;
+
+.content .card-body .pStyle {
+    padding-top: 1.25rem;
 }
-.secondRow  .pStyle2{
-    line-height:24px;
+
+.secondRow .pStyle2 {
+    line-height: 24px;
     margin-bottom: 1rem;
 }
 
-.secondRow  .styleSpan2{
-    font-size:10.24px;
-    line-height:15.36px;
+.secondRow .styleSpan2 {
+    font-size: 10.24px;
+    line-height: 15.36px;
     padding-left: 25px;
 }
-.secondRow .card-body{
-    padding:20px ;
+
+.secondRow .card-body {
+    padding: 20px;
 }
-.secondRow p::before{
+
+.secondRow p::before {
     content: " ";
     background-color: #6c757d;
     height: 0.3px;
@@ -224,10 +245,13 @@ padding-top: 1.25rem;
     top: 138px;
     left: 37px;
 }
+
+
 /************************************************************* blog end *************************************************************/
 
 
 /* start services section*/
+
 
 /* .first-sec
 {
@@ -251,24 +275,31 @@ padding-top: 1.25rem;
 {
     font-size:19px;
 } */
+
+
 /* start plan section*/
-.plans .container .row .card .plan-n
-{
-background-color: #343a40 !important;
-color:white;
+
+.plans .container .row .card .plan-n {
+    background-color: #343a40 !important;
+    color: white;
 }
-.plans .container .row .card .plan-n h3 
-{
+
+.plans .container .row .card .plan-n h3 {
     font-size: 2rem;
     font-weight: 550;
 }
-.plans .container .row .card .end-body
-{
-    color:#6c757d!important
+
+.plans .container .row .card .end-body {
+    color: #6c757d!important
 }
+
+
 /* end plans section*/
 
+
 /* start que section*/
+
+
 /* 
 .que-sec 
 {
@@ -317,41 +348,57 @@ color:white;
 }
 } */
 
+
 /*end que section*/
+
+
 /********************************************** Frequently Asked Questions  start ***************************************/
-   .questions h1{
+
+.questions h1 {
     font-size: 2.5rem;
     margin-bottom: .5rem;
     margin-bottom: .5rem;
     line-height: 1.2;
     font-weight: 500;
-   }
-   .questions hr{
+}
+
+.questions hr {
     margin-top: 1rem;
     margin-bottom: 1rem;
     border: 0;
-    border-top: 1px solid rgba(0,0,0,.1);
-    }
-   .questions .accordion .card{
+    border-top: 1px solid rgba(0, 0, 0, .1);
+}
+
+.questions .accordion .card {
     border: #444;
     /* text-align: center!important; */
-    border-bottom-left-radius:4px;                             /*  ???*/
-    border-bottom-right-radius:4px;                           /*  ???*/
+    border-bottom-left-radius: 4px;
+    /*  ???*/
+    border-bottom-right-radius: 4px;
+    /*  ???*/
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-    }
-   .accordion .card-header, .accordion .card-body{
+}
+
+.accordion .card-header,
+.accordion .card-body {
     background-color: #333;
-    }
-   .accordion .card-header a{
+}
+
+.accordion .card-header a {
     color: #fff;
     text-decoration: none;
-    text-align: center;                                      /*  ???*/
-    }
-   .accordion .card-header h5{ 
+    text-align: center;
+    /*  ???*/
+}
+
+.accordion .card-header h5 {
     font-size: 1.25rem;
     font-weight: 500;
     line-height: 1.2;
-    }
-    /********************************************** Frequently Asked Questions  end ***************************************/
-      /********************************************** services  end ***************************************/
-    
+}
+
+
+/********************************************** Frequently Asked Questions  end ***************************************/
+
+
+/********************************************** services  end ***************************************/
