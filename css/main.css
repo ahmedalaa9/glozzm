@@ -15,6 +15,35 @@ body {
     border-left: #444 3px solid;
 }
 
+/* start about */
+#about .desc h2{
+    font-weight: 500;
+    font-size: 2.5rem;
+}
+#about .desc h2,
+  #about .desc p {
+    color: #212529;
+}
+  #about .desc .img-Bx {
+    margin-top: -50px;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon{
+    background-image: none;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: #fff;
+}
+.carousel-control-prev-icon i,
+.carousel-control-next-icon i {
+    color: #212529;
+  }
+.blockquote-footer {
+    font-size: 1rem;
+}
+  
+/* end about */
 
 /*start header */
 
